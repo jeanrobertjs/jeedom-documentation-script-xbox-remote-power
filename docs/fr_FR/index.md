@@ -1,6 +1,6 @@
 # Xbox Remote Power
 
-Il s’agit d’un petit script qui peut allumer votre Xbox One à distance.
+Permet de démarrer une Xbox One sur le réseau avec une adresse IP et le Live Device Id de la console.
 
 ## Prérequis
 
@@ -32,3 +32,9 @@ Depuis l'interfaçe du plugin Script de Jeedom, cela peut donner quelque chose c
 
 Vous pouvez également utiliser des variables :
 ![Xbox On command with variables in Jeedom](../images/XboxOnCmd_with_variables.png)
+
+## FAQ
+
+### Toutes les paramètres me semblent corrects et pourtant cela ne fonctionne pas. Pourquoi ?
+
+Il faut que la console soit en mode "Démarrage instantané" ou "Instant On". Plus d'information sur ce mode sur <https://support.xbox.com/fr-FR/xbox-one/console/learn-about-power-modes>

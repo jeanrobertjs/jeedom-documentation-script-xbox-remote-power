@@ -32,3 +32,9 @@ From the Script plugin interface, you can use it like this by creating an "Xbox 
 
 You can also use variables :
 ![Xbox On command with variables in Jeedom](../images/XboxOnCmd_with_variables.png)
+
+## FAQ
+
+### All parameters are ok but it doesn't work. Why?
+
+Your Xbox One have to be in "Instant On" mode. More information on <https://support.xbox.com/fr-FR/xbox-one/console/learn-about-power-modes>
