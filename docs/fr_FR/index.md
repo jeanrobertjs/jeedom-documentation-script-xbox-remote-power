@@ -22,6 +22,8 @@ Exécutez le script comme suit, en remplaçant [ip address] par l’adresse IP d
 python xbox-remote-power.py -a [ip address] -i [live device id]
 ```
 
-Depuis l'interfaçe Script de jeedom cela peut donner quelque chose comme ceci en créant une commande "Xbox On" :
+Depuis l'interfaçe du plugin Script de jeedom cela peut donner quelque chose comme ceci en créant une commande "Xbox On" :
+![Xbox On command in Jeedom](../images/XboxOnCmd.png)
 
-image
+et en utilisant des variables :
+![Xbox On command with variables in Jeedom](../images/XboxOnCmd_with_variables.png)

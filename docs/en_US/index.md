@@ -21,3 +21,9 @@ Run the script as follows, replacing [ip address] with the IP of your Xbox One a
 ```bash
 python xbox-remote-power.py -a [ip address] -i [live id]
 ```
+
+From the Script plugin interface you can use it like this by creating an "Xbox On" command :
+![Xbox On command in Jeedom](../images/XboxOnCmd.png)
+
+and if you use variables :
+![Xbox On command with variables in Jeedom](../images/XboxOnCmd_with_variables.png)
