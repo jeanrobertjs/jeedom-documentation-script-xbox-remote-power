@@ -16,14 +16,19 @@ Pour trouver le Live device ID de votre Xbox One, rendez-vous sur Paramètres > 
 
 ## Utilisation
 
-Exécutez le script comme suit, en remplaçant [ip address] par l’adresse IP de votre Xbox One et [live device id] par votre Live device ID de votre Xbox One.
+Exécutez le script comme suit, en remplaçant les arguments [ip address] par l’adresse IP de votre Xbox One et [live device id] par votre Live device ID de votre Xbox One.
 
 ```bash
 python xbox-remote-power.py -a [ip address] -i [live device id]
 ```
 
-Depuis l'interfaçe du plugin Script de jeedom cela peut donner quelque chose comme ceci en créant une commande "Xbox On" :
+Depuis l'interfaçe du plugin Script de Jeedom, cela peut donner quelque chose comme ceci en créant une commande "Xbox On" :
+
+1. Donner un nom à la commande
+2. La définir en tant que "Action"
+3. Appeler le script avec les arguments liés à votre Xbox
+
 ![Xbox On command in Jeedom](../images/XboxOnCmd.png)
 
-et en utilisant des variables :
+Vous pouvez également utiliser des variables :
 ![Xbox On command with variables in Jeedom](../images/XboxOnCmd_with_variables.png)
